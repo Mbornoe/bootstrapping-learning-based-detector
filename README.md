@@ -1,1 +1,1 @@
-# Bootstrapping Learning-based detector
+# Bootstrapping Learning-based Detector
