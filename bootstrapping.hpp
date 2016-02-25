@@ -7,6 +7,29 @@
 #include <errno.h>
 #include <string>
 #include <iostream>
+#include <sstream>
+#include <fstream>
+#include <string>
+
+
+// Structs
+
+struct annotationStruct{
+	int frameNumber;
+	int topLeftX;
+	int topLeftY;
+	int botRightX;
+	int botRightY;
+};
+
+struct detectionStruct{
+	int frameNumber;
+	int topLeftX;
+	int topLeftY;
+	int botRightX;
+	int botRightY;
+	float score;
+};
 
 // Input argv variables
 std::string imagesPreBootstrappingDir;
@@ -20,3 +43,6 @@ std::string dir;
 
 // Keeping the loop alive
 int totalNumberOfFrames;
+std::vector<detectionStruct> workingDetectionStruct;
+std::vector<annotationStruct> workingAnnotationStruct;
+
