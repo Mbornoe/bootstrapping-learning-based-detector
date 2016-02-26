@@ -245,7 +245,7 @@ int main(int argc, char* argv[]) {
  
   	frame = cv::imread(framePath);
   	//std::cout << "Frame path: " << framePath << std::endl;
-  	std::cout << "Generating Positives" << std::endl;
+  	//std::cout << "Generating Positives" << std::endl;
   	for (int a = 0; a < workingFoundFramesInGt.size(); ++a)
   	{
   		if (workingFoundFramesInGt[a] == -1)
@@ -270,7 +270,7 @@ int main(int argc, char* argv[]) {
   		}
   	}
 
-  	std::cout << "Generating Negatives" << std::endl;
+  	//std::cout << "Generating Negatives" << std::endl;
   	for (int a = 0; a < workingFoundFramesInDt.size(); ++a)
   	{
   		if (workingFoundFramesInDt[a] == -1)
