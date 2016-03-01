@@ -33,14 +33,8 @@ CMakeFiles/
 inputImages/*
 Makefile
 CMakeCache.txt
-
-inputFiles/frameAnnotationsBULB.csv
+outputFiles/*
 
 *.csv
 
 *.mat
-
-inputFiles/modelDS[14,21]-nOctUp[0]-treeDepth[2]/models/Lisa+Log.txt
-
-
-inputFiles/modelDS[14,21]-nOctUp[0]-treeDepth[2]/models/Lisa+Log.txt
